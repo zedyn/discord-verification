@@ -2,9 +2,9 @@
 A Discord registration bot with support for both Turkish and English languages and email verification.
 ## Demo
 
-Demoya gif veya bağlantı ekleyin
+![Image](https://i.hizliresim.com/fuuwxkb.png)
+![Image](https://i.hizliresim.com/lb8vgzx.png)
 
-  
 ## Acknowledgements
 
 - [discord.js](https://www.npmjs.com/package/discord.js)
@@ -27,6 +27,12 @@ To run this project, you will need to add the items listed below to your src/uti
 - Google login credentials for the email verification system are mentioned in the relevant file with details. Please check it.
 
 - And some optional variables. 
+
+## Required Intents
+
+![Image](https://i.hizliresim.com/fmcjfy0.png)
+
+
 ## Run Locally 
 Clone the project
 
