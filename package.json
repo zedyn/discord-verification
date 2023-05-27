@@ -1,0 +1,17 @@
+{
+    "name": "verifaction-system",
+    "version": "1.0.0",
+    "description": "E-mail Verifaction System",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "node --watch .",
+        "start": "node ."
+    },
+    "author": "zédyN#1001",
+    "license": "GNU General Public License v3.0",
+    "dependencies": {
+        "discord.js": "^14.11.0",
+        "mongoose": "^7.2.1",
+        "nodemailer": "^6.9.2"
+    }
+}
