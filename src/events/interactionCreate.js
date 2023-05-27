@@ -103,52 +103,54 @@ module.exports = {
                     <!DOCTYPE html>
                     <html>
                     <head>
-                    <title>Doğrulama Kodu</title>
-                    <style>
-                        body {
-                        background-color: #f2f2f2;
-                        font-family: Arial, sans-serif;
-                        }
+                        <title>Doğrulama Kodu</title>
+                        <style>
+                            body {
+                            background-color: #f2f2f2;
+                            font-family: Arial, sans-serif;
+                            }
 
-                        .container {
-                        max-width: 400px;
-                        margin: 0 auto;
-                        padding: 20px;
-                        background-color: #ffffff;
-                        border-radius: 5px;
-                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                        }
+                            .container {
+                            max-width: 400px;
+                            margin: 0 auto;
+                            padding: 20px;
+                            background-color: #ffffff;
+                            border-radius: 5px;
+                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                            }
 
-                        h1 {
-                        text-align: center;
-                        color: #333333;
-                        }
+                            h1 {
+                            text-align: center;
+                            color: #333333;
+                            }
 
-                        .verification-code {
-                        text-align: center;
-                        font-size: 28px;
-                        font-weight: bold;
-                        color: #333333;
-                        margin-top: 30px;
-                        }
+                            .verification-code {
+                            text-align: center;
+                            font-size: 28px;
+                            font-weight: bold;
+                            color: #333333;
+                            margin-top: 30px;
+                            }
 
-                        .instructions {
-                        text-align: center;
-                        color: #666666;
-                        margin-top: 10px;
-                        }
-                    </style>
+                            .instructions {
+                            text-align: center;
+                            color: #666666;
+                            margin-top: 10px;
+                            }
+                        </style>
                     </head>
                     <body>
-                    <div class="container">
-                        <h1>${lang ? 'Doğrulama Kodu' : 'Verifaction Code'}</h1>
-                        <div class="verification-code">${code}</div>
-                        <div class="instructions">${
-                            lang
-                                ? 'Yukardaki doğrulama kodunu, Discord\'da aktif olan "Kodu Doğrula" butonuna tıklayarak karşınıza çıkan forma girin ve doğrulama işlemini sonlandırın.'
-                                : 'Enter the above verification code into the form that appears when you click the "Approve Code" button in Discord and complete the verification process.'
-                        }</div>
-                    </div>
+                        <div class="container">
+                            <h1>${lang ? 'Doğrulama Kodu' : 'Verifaction Code'}</h1>
+                            <div class="verification-code">${code}</div>
+                            <div class="instructions">
+                                ${
+                                    lang
+                                        ? 'Yukardaki doğrulama kodunu, Discord\'da aktif olan "Kodu Doğrula" butonuna tıklayarak karşınıza çıkan forma girin ve doğrulama işlemini sonlandırın.'
+                                        : 'Enter the above verification code into the form that appears when you click the "Approve Code" button in Discord and complete the verification process.'
+                                }
+                            </div>
+                        </div>
                     </body>
                     </html>
                 `,
