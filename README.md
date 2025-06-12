@@ -2,8 +2,8 @@
 A Discord registration bot with support for both Turkish and English languages and email verification.
 ## Demo
 
-![Image](https://resmim.net/i/fuuwxkb.TyOmHF)
-![Image](https://resmim.net/i/lb8vgzx.TyONGC)
+![Image](https://resmim.net/cdn/2025/06/13/TyOmHF.png)
+![Image](https://resmim.net/cdn/2025/06/13/TyONGC.png)
 
 ## Acknowledgements
 
