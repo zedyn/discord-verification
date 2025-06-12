@@ -30,7 +30,7 @@ To run this project, you will need to add the items listed below to your src/uti
 
 ## Required Intents
 
-![Image](https://i.hizliresim.com/fmcjfy0.png)
+![Image](https://resmim.net/cdn/2025/06/13/TyOwIT.png)
 
 
 ## Run Locally 
